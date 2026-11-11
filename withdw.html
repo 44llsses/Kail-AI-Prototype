@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>KaiL AI 2 / Withdrawal</title>
+  
+  <link rel="stylesheet" href="kail2.css">
+</head>
+
+<!-- Header and initial part banner -->
+
+<body>
+  <header>
+  <a href="kail2.html">
+  <button id="_hmbck">< Home</button>
+  </a>
+  <h2>[ Payment Method ]</h2>
+  </header>
+  
+  <!-- Forms sections & inputs -->
+  
+  <main>
+  <section>
+  <p id="pay_p">
+    <a href="https://www.paypal.com/ar/home" id="pay_a">PayPal</a>
+ </p>
+  <img src="https://images.seeklogo.com/logo-png/24/2/paypal-logo-png_seeklogo-249214.png" alt="Paypal logo png" id="payp_img">
+  <form id="f_1">
+    <legend id="cn_pp">Connect Your PayPal account</legend>
+    <input type="text" class="form_in" placeholder="user@network.com">
+    <input type="password" class="form_in" placeholder="Password">
+    <button type="submit" id="submit_pp">Log In</button>
+  </form>
+  
+  <p> [ Network fee: 5% ]</p>
+  <p>Delivery in 24hrs</p>
+  <p>[ Amount ]</p>
+  <p id="price"></p>
+  <span>5$ Min</span>
+  <input type="range" id="rng_pp">
+  <span>100$ Max</span>
+  </section>
+  
+  <section>
+  <p id="pers_p"><a id="pers_a" href="https://www.personal.com.ar/pay">Personal Pay</a>
+  </p>
+  <img src="https://static.wikia.nocookie.net/logopedia/images/7/72/Personal_Pay_con_renglones.svg/revision/latest/smart/width/386/height/259?cb=20251007220603&path-prefix=es" alt="Personal Pay logo png" id="pers_img">
+  
+  <form id="f_2">
+  <legend id="cn_persp">Connect your Personal Pay account</legend>
+  <input type="text" class="inp_per" placeholder="Email">
+  <input type="password" class="inp_per" placeholder="Password">
+  <button type="submit" id="submit_ppay">Log In</button>
+  </form>
+  
+  <p>[ Network Fees: 10% ]</p>
+  <p>Delivery in 2hrs</p>
+  <p> [ Amount ]</p>
+  <p id="price_tw"></p>
+  <span>5$ Min</span>
+  <input type="range" id="inp_p">
+  <span>100$ Max</span>
+  </section>
+  
+  <section>
+  <p id="wise_p">
+  <a id="wise_a" href="https://wise.com/ar/">Wise</a></p>
+  <img src="https://d21buns5ku92am.cloudfront.net/41519/documents/51452-1677618673-Frame%2039263-941e68.svg" alt="Wise logo png" id="wise_png">
+  
+  <form id="f_3">
+  <legend id="cn_ws">Connect your Wise account</legend>
+  <input type="text" class="inp_wis" placeholder="Email">
+  <input type="password" class="inp_wis" placeholder="Password">
+  <button type="submit" id="submit_wis">Log In</button>
+  </form>
+  
+  <p>[ Network Fee: 10% ]</p>
+  <p>Delivery in 48hrs</p>
+  <p> [ Amount ]</p>
+  <p id="price_thr"></p>
+  <span>5$ Min</span>
+  <input type="range" id="wis_inp">
+  <span>100$ Max</span>
+  </section>
+  </main>
+  
+  <!-- End of project -->
+  
+  <script src="withdw.js"></script>
+</body>
+</html>
