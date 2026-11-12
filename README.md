@@ -6,6 +6,7 @@ A minimal, cyberpunk-inspired productivity dashboard designed to keep full contr
 - **Main Dashboard:** Fast access to tools, credit balance, and active session status.
 - **User Stats:** Work time tracking, success rate, and tech stack distribution.
 - **Payout Gateways:** Dedicated interfaces (PayPal, Personal Pay, Wise) with dynamic range sliders.
+  
 - **Level Progression:** Clear requirements and focus areas from Beginner to Expert.
 
 ## Tech Stack
